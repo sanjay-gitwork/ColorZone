@@ -21,11 +21,11 @@ import Toast from './components/ui/Toast';
 // Tab View Components
 import ColorZone from './components/ColorZone';
 import FormatPanel from './components/FormatPanel';
-import ShadesGenerator from './components/ShadesGenerator';
-import PaletteGenerator from './components/PaletteGenerator';
-import GradientBuilder from './components/GradientBuilder';
-import ImageExtractor from './components/ImageExtractor';
-import ColorMixer from './components/ColorMixer';
+import ShadesGenerator from './features/shades/ShadesGenerator';
+import PaletteGenerator from './features/palettes/PaletteGenerator';
+import GradientBuilder from './features/gradients/GradientBuilder';
+import ImageExtractor from './features/extractor/ImageExtractor';
+import ColorMixer from './features/mixer/ColorMixer';
 import ColorConverter from './components/ColorConverter';
 import RandomGenerator from './components/RandomGenerator';
 import AccessibilityPanel from './components/AccessibilityPanel';
